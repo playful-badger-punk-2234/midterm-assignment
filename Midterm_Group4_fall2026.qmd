@@ -1,0 +1,24 @@
+---
+title: "Midterm Assignment"
+subtitle: "Group 4"
+date: "Monday October 12, 2026"
+author: "Lachlan Casey, Boglárka Dorottya Kováts, Rune Ringgaard Jørgensen"
+format:
+  pdf:
+    geometry:
+     - left=2cm
+     - right=2cm
+     - bottom=3cm
+    fig-pos: h
+    include-in-header:
+      text: |
+        \usepackage{float}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \fancyhead[C]{Assignment 1 - Group 4}
+        \fancyfoot[C]{\thepage}
+execute: 
+  echo: false
+bibliography: references.bib
+---
